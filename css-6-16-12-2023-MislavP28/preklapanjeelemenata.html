@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{ height: 700px;
+            width: 700px;
+            background-color: pink;
+            position:relative;
+            border-radius: 15%;}
+        .div1 {background-color: aquamarine;
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            top: 15%;
+            left: 30%;
+            z-index: 1;
+            text-align: center;
+        }
+        .div2 {background-color: purple;
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            z-index: 2;
+            text-align: center;
+            }
+        .div3 {background-color: yellowgreen;
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            top:40% ;
+            left: 40%;
+            z-index: 3;
+            text-align: center;}
+        div div {border-radius: 20%;}
+
+
+    </style>
+</head>
+<body>
+    <div class="div0">
+        <div class="div1">A</div>
+        <div class="div2">B</div>
+        <div class="div3">C</div>
+    </div>
+    
+</body>
+</html>
