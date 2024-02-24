@@ -1,3 +1,6 @@
 [submodule "css-6-16-12-2023-MislavP28"]
 	path = css-6-16-12-2023-MislavP28
 	url = .\\css-6-16-12-2023-MislavP28\\
+[submodule "Beam_Webshop"]
+	path = Beam_Webshop
+	url = https://github.com/MislavP28/Beam_Webshop.git
